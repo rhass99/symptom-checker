@@ -13,7 +13,7 @@
     "prepush": "npm run build && rm -rf node_modules",
     "register": "NODE_ENV=development node -r ./bin/dev",
     "babel-node": "NODE_ENV=development babel-node",
-    "dev": "nodemon --exec npm run babel-node -- ./src/app.js"
+    "dev": "nodemon --exec npm run babel-node -- ./src/db/scan.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/rhass99/symptom-checker#readme",
   "dependencies": {
+    "aws-sdk": "2.325.0",
     "axios": "0.18.0",
     "body-parser": "1.18.3",
     "express": "4.16.3"

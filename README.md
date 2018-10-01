@@ -1,4 +1,4 @@
-# Backend API for BCIT project symptom checker using DynamoDB
+# Backend API for BCIT project symptom checker using MongoDB
 
 
 Consume an API from Infermedica where you get AI assisted dignosis for your symptoms. Get referred to a pharmacist to give you more primary advice on your symptoms.
